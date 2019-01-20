@@ -11,9 +11,9 @@ function createServer() {
       Query
     },
     resolverValidationOptions: {
-      requireResolversForResolveType: false;
+      requireResolversForResolveType: false
     },
-    context: req => ({...req, db}),
+    context: req => ({ ...req, db })
   });
 }
 
