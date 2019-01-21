@@ -6,7 +6,7 @@ const Nav = () => (
   // components at the same time
   <NavStyles>
     <Link href="/items">
-      <a>Items</a>
+      <a>Shop</a>
     </Link>
     <Link href="/sell">
       <a>Sell</a>
