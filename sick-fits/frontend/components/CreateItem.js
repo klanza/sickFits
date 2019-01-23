@@ -80,7 +80,7 @@ class CreateItem extends Component {
             <Error error={error} />
             <fieldset disabled={loading} aria-busy={loading}>
               <label htmlFor="file">
-                Title
+                File Upload
                 <input
                   type="file"
                   id="file"

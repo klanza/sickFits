@@ -9,9 +9,8 @@ class MyApp extends App {
     if (Component.getInitialProps) {
       pageProps = await Component.getInitialProps(ctx);
     }
-    // this exposes the query to the user
     pageProps.query = ctx.query;
-    return pageProps;
+    return { pageProps: pageProps };
   }
   render() {
     const { Component, apollo, pageProps } = this.props;
