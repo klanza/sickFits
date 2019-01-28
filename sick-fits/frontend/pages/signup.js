@@ -1,5 +1,6 @@
 import Signup from '../components/Signup';
 import Signin from '../components/Signin';
+import Signout from '../components/Signout';
 import styled from 'styled-components';
 
 const Columns = styled.div`
