@@ -1,5 +1,5 @@
 # source: https://us1.prisma.sh/kenneth-lanza-3fa071/sickfits/dev
-# timestamp: Thu Jan 24 2019 17:21:36 GMT-0700 (Mountain Standard Time)
+# timestamp: Sun Jan 27 2019 19:15:55 GMT-0700 (Mountain Standard Time)
 
 type AggregateItem {
   count: Int!
@@ -815,4 +815,5 @@ input UserWhereInput {
 input UserWhereUniqueInput {
   id: ID
   email: String
+  resetToken: String
 }
